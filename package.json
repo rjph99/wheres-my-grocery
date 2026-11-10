@@ -1,0 +1,19 @@
+{
+  "name": "wheres-my-grocery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "test": "node --test lib/optimizer.test.js"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwindcss": "^4.3.5"
+  }
+}
